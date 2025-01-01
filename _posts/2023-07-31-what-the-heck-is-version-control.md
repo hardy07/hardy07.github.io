@@ -50,7 +50,8 @@ sudo pacman -S git
 
 ### Installing Git on Windows
 
-<p>1. Download the git installer from their</p> [website](https://git-scm.com/download/win).
+<p>1. Download the Git installer from their</p> <a href="https://git-scm.com/download/win">website</a>.
+
 
 <p align="center">
   <img src="/img/VersionControl/installer.png" alt="Installer">
