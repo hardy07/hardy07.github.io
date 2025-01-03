@@ -94,15 +94,15 @@ git --version
   <img src="/img/VersionControl/Git_illustration.webp" alt="Staging">
 </p>
 
-1.  To understand these concepts in a better way imagine you are shopping online
+To understand these concepts in a better way imagine you are shopping online
 
-2.  **Staging:** Staging is like preparing a shopping cart before checkout. You add items to your cart to decide what you want to buy. Like ways in git, staging is similar; you select specific changes or files that you want to include in your next "purchase" (commit). It's like deciding which changes you want to save in your history.
+1.  **Staging:** Staging is like preparing a shopping cart before checkout. You add items to your cart to decide what you want to buy. Like ways in git, staging is similar; you select specific changes or files that you want to include in your next "purchase" (commit). It's like deciding which changes you want to save in your history.
 
-3.  **Committing:** Committing is like completing your purchase. It's like checking out your shopping cart and finalizing your purchase. Your changes are now saved in the Git history with a message explaining what you changed. It's a snapshot of your work at that specific moment in time.
+2.  **Committing:** Committing is like completing your purchase. It's like checking out your shopping cart and finalizing your purchase. Your changes are now saved in the Git history with a message explaining what you changed. It's a snapshot of your work at that specific moment in time.
 
-4.  **Pushing:** Pushing is like sharing your shopping list with others. When you push in Git, you are sending your committed changes to a central server (like GitHub) so that others can see and access your work. It's like sharing your shopping list with friends or family, so they know what you bought.
+3.  **Pushing:** Pushing is like sharing your shopping list with others. When you push in Git, you are sending your committed changes to a central server (like GitHub) so that others can see and access your work. It's like sharing your shopping list with friends or family, so they know what you bought.
 
-5.  **Pulling:** Pulling is like updating your shopping list with new items. When you pull in Git, you're fetching changes made by others (like your friends or family adding new items to the shopping list) and bringing those changes into your local copy of the project. It helps you keep your work up-to-date with what others have done.
+4.  **Pulling:** Pulling is like updating your shopping list with new items. When you pull in Git, you're fetching changes made by others (like your friends or family adding new items to the shopping list) and bringing those changes into your local copy of the project. It helps you keep your work up-to-date with what others have done.
 
 I hope this example made you understand these concepts well.
 
