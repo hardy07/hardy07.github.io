@@ -3,7 +3,7 @@ layout: post
 title: What the heck is version control
 description: Learning to Set up git and Learning the most basic and popular commands that are used
 date: 2023-07-31 23:02:44 +0530
-tags: Version-control
+tags: version-control
 ---
 
 ## Getting Started
