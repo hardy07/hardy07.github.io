@@ -33,15 +33,3 @@ When we talk about classification, we’re asking, “What category does this da
 While on the other hand, prediction is a bit more like forecasting the future. It's about taking some data and estimating something continuous. How much will this stock price rise next month? Predictions involve estimating values rather than sorting things into categories.
 
 These two approaches—classification and prediction—are the foundation of most ML tasks.
-
-## What problem it tries to solve?
-
-## main categories
-
-## steps in a typical machine learning project
-
-## challenges of machine learning, in particular underfitting and overfitting (the bias/variance trade-off)
-
-## the most common learning algorithms
-
-linear and polynomial regression, logistic regression, k-nearest neighbors, support vector machines, decision trees, random forests, and ensemble methods
