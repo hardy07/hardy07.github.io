@@ -37,5 +37,5 @@ These two approaches—classification and prediction—are the foundation of mos
 ## How does AI, ML, DL, Gen AI fit together?
 
 <p align="left">
-  <img src="/img/ML 101/ai-dl-ml-genai.png" width="400">
+  <img src="/img/ML 101/ai-dl-ml-genai.png" width="250">
 </p>
