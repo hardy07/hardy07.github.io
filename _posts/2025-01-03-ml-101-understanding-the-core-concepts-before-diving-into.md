@@ -34,6 +34,12 @@ While on the other hand, prediction is a bit more like forecasting the future. I
 
 These two approaches—classification and prediction—are the foundation of most ML tasks.
 
+## How does AI, ML, DL, Gen AI fit together?
+
+<p align="center">
+  <img src="/img/VersionControl/ML 101/ai-dl-ml-genai.png" width="200">
+</p>
+
 ## What problem it tries to solve?
 
 ## main categories
