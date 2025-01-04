@@ -39,15 +39,3 @@ These two approaches—classification and prediction—are the foundation of mos
 <p align="center">
   <img src="/img/VersionControl/ML 101/ai-dl-ml-genai.png" width="200">
 </p>
-
-## What problem it tries to solve?
-
-## main categories
-
-## steps in a typical machine learning project
-
-## challenges of machine learning, in particular underfitting and overfitting (the bias/variance trade-off)
-
-## the most common learning algorithms
-
-linear and polynomial regression, logistic regression, k-nearest neighbors, support vector machines, decision trees, random forests, and ensemble methods
