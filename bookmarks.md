@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bookmarks
 title: Bookmarks
 description: Useful online tools and resources
 ---
