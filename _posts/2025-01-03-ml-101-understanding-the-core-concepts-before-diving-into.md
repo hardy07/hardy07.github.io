@@ -50,4 +50,4 @@ AI, Machine Learning (ML), Deep Learning (DL), and Generative AI (Gen AI) are al
 
 4. Gen AI (Generative AI) refers to AI systems that are designed to generate new content like text, images, music, or code, based on learned patterns. It typically involves deep learning models (particularly neural networks) to create novel outputs that resemble the data the system was trained on. Examples include GPT (for text generation), DALL·E (for image generation), and Stable Diffusion.
 
-I will write more in-depth blogs on them in the upcoming posts to which will provide greater clarity.
+I will write more in-depth blogs on them in the upcoming days which will provide greater clarity.
