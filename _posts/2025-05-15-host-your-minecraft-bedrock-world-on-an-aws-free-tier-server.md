@@ -83,7 +83,7 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
    - Click **Launch Instance**.
 
 3. **Get Your Public IP**:
-   - Once the instance is running, note its **Public IPv4 Address** (e.g., `3.92.187.163`).
+   - Once the instance is running, note its **Public IPv4 Address** (e.g., `x.xx.xxx.xxx`).
 
 ---
 
@@ -220,10 +220,11 @@ To ensure your server stays online after disconnecting from SSH, use tmux:
    - On your device (PC, phone, console), go to Play > Servers > Add Server.
    - Enter:
      - Server Name: Anything (e.g., My AWS Server)
-     - Server Address: Your EC2 Public IP (e.g., 3.92.187.163)
+     - Server Address: Your EC2 Public IP (e.g., x.xx.xxx.xxx)
      - Port: 19132
    - Join and Test:
      - Click Play. If your world loads, you’re set!
 
-You now have a fully functional Minecraft Bedrock server running on AWS, with your custom world loaded and accessible to you and your friends. By using tmux or a systemd service, your server stays online 24/7, and your AWS Free Tier keeps costs at zero (as long as you stay within limits).
-If you run into issues or want to add features like custom permissions, operator status, or automated backups, reach out for help!
+You now have a fully functional Minecraft Bedrock server running on AWS, with your custom world loaded. By using tmux, your server stays online 24/7, and your AWS Free Tier keeps costs at zero. Please note that the  AWS Free Tier benefits last for 12 months from the date your account is activated, You need to be creating a new account after a year. 
+You can login into the server and anytime edit the ```server.properties``` to make game modifications.
+If you run into issues or want to add features like custom permissions, operator status, or automated backups, reach out for help in the comments
