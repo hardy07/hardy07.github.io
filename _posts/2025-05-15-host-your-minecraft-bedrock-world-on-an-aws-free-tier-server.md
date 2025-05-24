@@ -6,8 +6,6 @@ date: 2025-05-15 01:15:44 +0530
 tags: aws
 ---
 
-# How to Transfer and Host Your Minecraft Bedrock World on an AWS Free Tier Server
-
 Hosting your own **Minecraft Bedrock** server on an **AWS Free Tier EC2 instance** is a fantastic way to enjoy your custom world with friends, without needing a powerful local machine or paying for a third-party hosting service. This guide walks you through the entire process, from transferring your existing `.mcworld` file to running a dedicated server on AWS, and ensuring it stays online. We'll also address common issues like connectivity and keeping the server running in the background.
 
 ---
