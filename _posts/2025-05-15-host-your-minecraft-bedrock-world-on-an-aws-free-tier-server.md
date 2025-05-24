@@ -6,7 +6,7 @@ date: 2025-05-15 01:15:44 +0530
 tags: aws
 ---
 
-Hosting your own **Minecraft Bedrock** server on an **AWS Free Tier EC2 instance** is a fantastic way to enjoy your custom world with friends, without needing a powerful local machine or paying for a third-party hosting service. This guide walks you through the entire process, from transferring your existing `.mcworld` file to running a dedicated server on AWS, and ensuring it stays online. We'll also address common issues like connectivity and keeping the server running in the background.
+Hosting your own **Minecraft Bedrock** server on an **AWS Free Tier EC2 instance** is a nice way to run your custom world, without needing a powerful local machine or paying for a third-party hosting service. This guide walks you through the entire process, from transferring your existing `.mcworld` file to running a dedicated server on AWS, and ensuring it stays online. I'll also address common issues like connectivity and keeping the server running in the background. Put down your queries in the comments I'll respond to them.
 
 ---
 
@@ -15,7 +15,7 @@ Hosting your own **Minecraft Bedrock** server on an **AWS Free Tier EC2 instance
 - **Minecraft Bedrock World**: You have an existing `.mcworld` file.
 - **AWS Account**: Sign up for the AWS Free Tier at [aws.amazon.com](https://aws.amazon.com).
 - **Basic Command Line Knowledge**: Familiarity with SSH and file transfers is helpful but not mandatory.
-- **Tools**: A terminal (PuTTY for Windows, Terminal for macOS/Linux, or Git Bash/WSL for Windows) and SCP for file transfers.
+- **Tools**: A terminal (Terminal for macOS/Linux, or Git Bash/WSL for Windows) and SCP for file transfers.
 - **EC2 Key Pair**: A `.pem` file for SSH access (generated during EC2 setup).
 
 ---
