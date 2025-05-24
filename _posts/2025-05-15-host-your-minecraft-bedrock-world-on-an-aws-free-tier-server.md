@@ -55,7 +55,6 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
 2. **Launch an EC2 Instance**:
 
    - Navigate to **EC2** > **Instances** > **Launch Instances**.
-   
    - **Name**: `MinecraftBedrock`.
    - **AMI**: Select **Ubuntu Server 22.04 LTS** (Free Tier eligible).
    - **Instance Type**: Choose `t2.micro`.
@@ -213,7 +212,6 @@ To ensure your server stays online after disconnecting from SSH, use tmux:
 
 1. **Open Minecraft Bedrock**:
    - On your device (PC, phone, console), go to Play > Servers > Add Server.
-   
    - Enter:
      - Server Name: Anything (e.g., My AWS Server)
      - Server Address: Your EC2 Public IP (e.g., 3.92.187.163)
