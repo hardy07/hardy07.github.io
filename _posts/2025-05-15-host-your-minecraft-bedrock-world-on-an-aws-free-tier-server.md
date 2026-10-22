@@ -61,6 +61,7 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
 2. **Launch an EC2 Instance**:
 
    - Navigate to **EC2** > **Instances** > **Launch Instances**.
+
    - **Name**: `MinecraftBedrock`.
    - **AMI**: Select **Ubuntu Server 22.04 LTS** (Free Tier eligible).
    - **Instance Type**: Choose `t2.micro`.
@@ -68,17 +69,19 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
      - Create a new key pair (e.g., `minecraft_bedrock_server.pem`) or use an existing one.
      - Download and save the `.pem` file securely.
    - **Network Settings**:
+
      - Click **Edit** under **Network Settings**.
      - Create or select a security group.
      - Add these inbound rules:
-       
-       | Type | Protocol | Port Range | Source |
-       |-------------|----------|------------|------------|
-       | SSH | TCP | 22 | 0.0.0.0/0 or My IP |
-       | Custom UDP | UDP | 19132 | 0.0.0.0/0 |
-       | Custom UDP | UDP | 19133 | 0.0.0.0/0 |
-     
+
+       | Type       | Protocol | Port Range | Source             |
+       | ---------- | -------- | ---------- | ------------------ |
+       | SSH        | TCP      | 22         | 0.0.0.0/0 or My IP |
+       | Custom UDP | UDP      | 19132      | 0.0.0.0/0          |
+       | Custom UDP | UDP      | 19133      | 0.0.0.0/0          |
+
      - **Note**: Port 19132 is for IPv4 connections, and 19133 is for IPv6. Allowing SSH from `0.0.0.0/0` is okay for testing but restrict to your IP for security later.
+
    - **Storage**: Default (8 GB) is fine for Free Tier.
    - Click **Launch Instance**.
 
@@ -109,6 +112,7 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
    sudo apt install unzip curl tmux -y
    ```
 2. **Create a Directory**:
+
    ```bash
    mkdir ~/bedrock-server
    cd ~/bedrock-server
@@ -124,16 +128,19 @@ AWS’s Free Tier offers a `t2.micro` instance, which is sufficient for a small 
    ```
 
 4. **Unzip the Server Files**:
+
    ```bash
    unzip bedrock-server-1.21.81.2.zip
    ```
 
 5. **Set Execute Permissions**:
+
    ```bash
    chmod +x bedrock_server
    ```
 
 6. **Test the Server**:
+
    ```bash
    ./bedrock_server
    ```
@@ -217,7 +224,9 @@ To ensure your server stays online after disconnecting from SSH, use tmux:
 ## Step 8: Connect to Your Server
 
 1. **Open Minecraft Bedrock**:
+
    - On your device (PC, phone, console), go to Play > Servers > Add Server.
+
    - Enter:
      - Server Name: Anything (e.g., My AWS Server)
      - Server Address: Your EC2 Public IP (e.g., x.xx.xxx.xxx)
