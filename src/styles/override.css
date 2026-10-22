@@ -1,0 +1,288 @@
+/* Ported from css/override.css */
+
+/* React root layout */
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ========================================
+   Dark Theme
+   ======================================== */
+
+:root {
+  color-scheme: dark;
+
+  --dark-background: #252626;
+  --dark-surface: #252626;
+  --dark-code-background: #1c1d1d;
+  --dark-text: #e8e8e8;
+  --dark-muted: #a0a0a0;
+  --dark-border: #3b3d3d;
+  --dark-link: #6aa9ff;
+  --dark-link-hover: #9bc5ff;
+}
+
+/* Global page background */
+html,
+body,
+#root {
+  min-height: 100%;
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+body {
+  background-color: var(--dark-background) !important;
+  color: var(--dark-text) !important;
+}
+
+/* Main layout */
+.page-content,
+.site-header,
+.site-footer,
+.wrapper {
+  background-color: var(--dark-surface) !important;
+  color: var(--dark-text);
+}
+
+/* Header and footer borders */
+.site-header,
+.site-footer {
+  border-color: var(--dark-border) !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-text);
+}
+
+/* Body text */
+p,
+li,
+dt,
+dd,
+blockquote,
+.post-content,
+.post-title,
+.site-title,
+.site-title:visited,
+.site-nav .page-link {
+  color: var(--dark-text);
+}
+
+/* Links */
+a,
+a:visited {
+  color: var(--dark-link);
+}
+
+a:hover,
+a:focus {
+  color: var(--dark-link-hover);
+}
+
+/* Dates and secondary text */
+.post-meta,
+.post_navi-label,
+time {
+  color: var(--dark-muted);
+}
+
+/* Horizontal separators */
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-color: var(--dark-border);
+}
+
+/* Post navigation links */
+.post_navi {
+  display: flex;
+}
+
+.post_navi-label {
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
+.post_navi .post_navi-item {
+  padding: 0 2.2em;
+  width: 50%;
+  position: relative;
+  color: var(--dark-text) !important;
+}
+
+.post_navi .nav_prev {
+  text-align: left;
+}
+
+.post_navi .nav_next {
+  text-align: right;
+}
+
+.post_navi .nav_prev .post_navi-arrow {
+  left: 0;
+}
+
+.post_navi .nav_next .post_navi-arrow {
+  right: 0;
+}
+
+.post_navi .post_navi-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+  opacity: 0.5;
+}
+
+/* ========================================
+   Syntax Highlighting
+   ======================================== */
+
+.hljs {
+  max-height: 500px;
+  background-color: var(--dark-code-background);
+  color: var(--dark-text);
+}
+
+.highlight,
+.highlight pre,
+pre {
+  background-color: var(--dark-code-background);
+  color: var(--dark-text);
+}
+
+code {
+  background-color: #303232;
+  color: #e8e8e8;
+}
+
+/* ========================================
+   Copy Code Button
+   ======================================== */
+
+.copy-code-button {
+  color: var(--dark-text);
+  background-color: #343636;
+  border-color: #555858;
+  border: 2px solid;
+  border-radius: 3px 3px 0 0;
+
+  /* Right-align */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+
+  margin-bottom: -2px;
+  padding: 3px 8px;
+  font-size: 0.8em;
+}
+
+.copy-code-button:hover {
+  cursor: pointer;
+  background-color: #454848;
+}
+
+.copy-code-button:focus {
+  background-color: #454848;
+  outline: 2px solid var(--dark-link);
+  outline-offset: 2px;
+}
+
+.copy-code-button:active {
+  background-color: #555858;
+}
+
+.highlight pre {
+  /* Avoid pushing up the copy buttons */
+  margin: 0;
+}
+
+/* ========================================
+   Tables and Form Elements
+   ======================================== */
+
+table {
+  color: var(--dark-text);
+  border-color: var(--dark-border);
+}
+
+th,
+td {
+  border-color: var(--dark-border);
+}
+
+input,
+textarea,
+select {
+  background-color: #303232;
+  color: var(--dark-text);
+  border: 1px solid #555858;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--dark-muted);
+}
+
+/* ========================================
+   Print Styles
+   ======================================== */
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body,
+  #root,
+  .page-content,
+  .site-header,
+  .site-footer {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  a,
+  a:visited {
+    color: #000 !important;
+  }
+}
+
+/* Fix the color strip above the site header */
+html,
+body,
+#root {
+  background: #252626 !important;
+}
+
+body {
+  margin: 0;
+}
+
+.site-header,
+.site-header .wrapper,
+.site-header::before,
+.site-header::after {
+  background: #252626 !important;
+}
+
+/* Remove any unwanted top spacing or border */
+.site-header {
+  margin-top: 0 !important;
+  border-top: none !important;
+}
+
+/* Keep the header separator consistent */
+.site-header {
+  border-bottom: 1px solid #3b3d3d !important;
+}
