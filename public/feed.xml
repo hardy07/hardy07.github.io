@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sakthivel's Blog</title>
+    <link>https://hardy07.github.io/</link>
+    <description>My first blog.</description>
+    <language>en-us</language>
+
+    <item>
+      <title><![CDATA[How to Transfer and Host Your Minecraft Bedrock World on an AWS Free Tier Server]]></title>
+      <link>https://hardy07.github.io/2025/05/15/host-your-minecraft-bedrock-world-on-an-aws-free-tier-server/</link>
+      <guid>https://hardy07.github.io/2025/05/15/host-your-minecraft-bedrock-world-on-an-aws-free-tier-server/</guid>
+      <pubDate>Wed, 14 May 2025 19:45:44 GMT</pubDate>
+      <description><![CDATA[A step-by-step guide to transfer and host your Minecraft Bedrock world with 24/7 uptime on an AWS Free Tier EC2 instance.]]></description>
+    </item>
+
+    <item>
+      <title><![CDATA[Machine Learning 101 - Understanding the Core Concepts before diving into]]></title>
+      <link>https://hardy07.github.io/2025/01/03/ml-101-understanding-the-core-concepts-before-diving-into/</link>
+      <guid>https://hardy07.github.io/2025/01/03/ml-101-understanding-the-core-concepts-before-diving-into/</guid>
+      <pubDate>Fri, 03 Jan 2025 17:19:00 GMT</pubDate>
+      <description><![CDATA[Learning the basic concepts involved in understanding machine learning]]></description>
+    </item>
+
+    <item>
+      <title><![CDATA[What the heck is version control]]></title>
+      <link>https://hardy07.github.io/2023/07/31/what-the-heck-is-version-control/</link>
+      <guid>https://hardy07.github.io/2023/07/31/what-the-heck-is-version-control/</guid>
+      <pubDate>Mon, 31 Jul 2023 17:32:44 GMT</pubDate>
+      <description><![CDATA[Learning to Set up git and Learning the most basic and popular commands that are used]]></description>
+    </item>
+
+  </channel>
+</rss>
