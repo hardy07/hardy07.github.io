@@ -286,3 +286,29 @@ body {
 .site-header {
   border-bottom: 1px solid #3b3d3d !important;
 }
+
+/* Force readable table headers in dark theme */
+article table thead th,
+article table thead td,
+.post-content table thead th,
+.post-content table thead td,
+article table th,
+.post-content table th {
+  background: #353737 !important;
+  background-color: #353737 !important;
+  color: #f3f4f6 !important;
+  border-color: #555 !important;
+}
+
+/* Keep table body rows dark and readable */
+article table tbody td,
+.post-content table tbody td {
+  background-color: #252626 !important;
+  color: #e5e7eb !important;
+  border-color: #555 !important;
+}
+
+article table tbody tr:nth-child(even) td,
+.post-content table tbody tr:nth-child(even) td {
+  background-color: #2e3030 !important;
+}
