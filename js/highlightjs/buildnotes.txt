@@ -1,3 +1,0 @@
-node tools/build.js -t cdn
-
-Copy desired language and style files to according folders

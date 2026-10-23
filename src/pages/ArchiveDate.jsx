@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
-import { posts } from '../lib/posts.js';
-import { formatYearMonthLong } from '../lib/format.js';
-import { useDocumentMeta } from '../lib/useDocumentMeta.js';
+import { Link } from "react-router-dom";
+import { posts } from "../lib/posts.js";
+import { formatYearMonthLong } from "../lib/format.js";
+import { useDocumentMeta } from "../lib/useDocumentMeta.js";
 
 // archive-date.html: posts grouped by "2025 May", newest first
 export default function ArchiveDate() {
-  useDocumentMeta({ title: 'Blog Archive', path: '/archive-date.html' });
+  useDocumentMeta({ title: "Blog Archive", path: "/archive-date.html" });
 
   const groups = [];
   for (const post of posts) {
