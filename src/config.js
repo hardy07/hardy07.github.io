@@ -17,7 +17,7 @@ export const site = {
 
   // Was `header_pages` in _config.yml
   nav: [
-    { title: "Blog Archive", url: "/archive.html" },
+    { title: "Archive", url: "/archive.html" },
     { title: "Bookmarks", url: "/bookmarks.html" },
   ],
 };

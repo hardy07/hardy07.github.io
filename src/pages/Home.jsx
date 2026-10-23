@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom';
-import { site } from '../config.js';
-import { posts } from '../lib/posts.js';
-import { formatDate } from '../lib/format.js';
-import { useDocumentMeta } from '../lib/useDocumentMeta.js';
-import Markdown from '../components/Markdown.jsx';
-import intro from '../content/home.md?raw';
+import { Link } from "react-router-dom";
+import { site } from "../config.js";
+import { posts } from "../lib/posts.js";
+import { formatDate } from "../lib/format.js";
+import { useDocumentMeta } from "../lib/useDocumentMeta.js";
+import Markdown from "../components/Markdown.jsx";
+import intro from "../content/home.md?raw";
 
 // Equivalent of _layouts/home.html + index.md
 export default function Home() {
-  useDocumentMeta({ path: '/' });
+  useDocumentMeta({ path: "/" });
   return (
     <div className="home">
       <Markdown>{intro}</Markdown>
@@ -20,8 +20,12 @@ export default function Home() {
             {posts.slice(0, site.homePostLimit).map((post) => (
               <li key={post.url}>
                 <span className="post-meta">{formatDate(post.dateParts)}</span>
-                <h3>
-                  <Link className="post-link" to={post.url}>
+                <h3 style={{ fontSize: "inherit" }}>
+                  <Link
+                    className="post-link"
+                    to={post.url}
+                    style={{ fontSize: "inherit" }}
+                  >
                     {post.title}
                   </Link>
                 </h3>
